@@ -1,0 +1,97 @@
+.user-input-form
+{
+    width: 662px;
+    position: relative;
+    top: 68px;
+ /*   left: 331px;*/
+    height: 178px;
+}
+.project{
+	position: absolute;
+    left: 231px;
+    background: #fff;
+    border-radius: 7px;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 1px 1px rgba(50,50,50,0.1);
+    cursor: pointer;
+    outline: none;
+    margin: 0 auto;
+    padding: 3px;
+}
+.project  :after{
+	 content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: grey transparent;
+}
+
+.Activity{
+
+	position: absolute;
+    left: 34px;
+    background: #fff;
+    border-radius: 7px;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 1px 1px rgba(50,50,50,0.1);
+    cursor: pointer;
+    outline: none;
+    margin: 0 auto;
+    padding: 3px;
+
+}
+.date{
+	position: absolute;
+    left: 449px;
+    background: #fff;
+    border-radius: 7px;
+    border: 1px solid rgba(0,0,0,0.15);
+    box-shadow: 0 1px 1px rgba(50,50,50,0.1);
+    cursor: pointer;
+    outline: none;
+    margin: 0 auto;
+    padding: 3px;
+
+}
+.text{
+	position: absolute;
+    top: 72px;
+    left: 46px;
+    width: 505px;
+}
+.submit{
+	    position: absolute;
+    top: 169px;
+    left: 269px;
+}
+.todo{
+
+}
+#root{
+	box-shadow: 0px 3px 5px rgb(47, 79, 79);
+	background-color: #d3d3d3;
+	position: relative;
+    left: 255px;
+    top: 37px;
+    width: 613px;
+    height: 301px;
+    border: 3px solid black;
+}
+.head
+{
+	margin-left: 30px;
+font-size: 19px;
+font-weight: bold;
+margin-top: 17px;
+position: absolute;
+}
+.todo-list
+{
+	    position: absolute;
+        top: 321px;
+}
