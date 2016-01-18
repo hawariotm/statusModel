@@ -34,7 +34,11 @@ var dates = new DateCollection([{
 }]);
 
 var allStatus=new StatusCollection();
+var LS_KEY = 'MY_LS_KEY';
+data = JSON.parse( localStorage.getItem( this.LS_KEY ) );
 
+
+allStatus.add(data)
 var root = new Root({
 	"projects"   :projects,
 	"activities" :activities,

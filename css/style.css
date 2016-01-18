@@ -74,10 +74,10 @@
 }
 #root{
 	box-shadow: 0px 3px 5px rgb(47, 79, 79);
-	background-color: #d3d3d3;
+	background-color: #fbfbfb;
 	position: relative;
-    left: 255px;
-    top: 37px;
+    left: 347px;
+    top: 116px;
     width: 613px;
     height: 301px;
     border: 3px solid black;
@@ -93,5 +93,47 @@ position: absolute;
 .todo-list
 {
 	    position: absolute;
-        top: 321px;
+        top: 369px;
+        width: 184%;
+        font-weight: bold;
+        left: -284px;
+}
+.dat{
+    width: 201px;
+}
+.act{
+    text-align: right;
+}
+.pro{
+    text-align: right;
+}
+body{
+    background-color: #d3d3d3;
+    font-family: "Raleway" ,"sans-serif";
+}
+.stat{
+    text-align: center;
+    position: absolute;
+    left: 467px;
+}
+.burst{
+    position: absolute;
+    top: 324px;
+    left: 29px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.daily{
+    position: absolute;
+    top: -60px;
+    left: 221px;
+    font-size: 24px;
+    
+}
+#header{
+    background-color: black;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    z-index: 3;
 }
